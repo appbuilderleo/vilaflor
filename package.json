@@ -1,16 +1,9 @@
 {
   "name": "vilaflor",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Vila Flor — Premium Beachfront Holiday House in Ponta do Ouro, Mozambique",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "sharp": "^0.35.5"
+    "build": "node scripts/build.mjs"
   }
 }
