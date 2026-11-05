@@ -5,12 +5,14 @@ const root = process.cwd();
 const publicDir = path.join(root, 'public');
 fs.mkdirSync(publicDir, { recursive: true });
 
-// Ensure index.html is in public as well
-const srcIndex = path.join(root, 'index.html');
-const destIndex = path.join(publicDir, 'index.html');
-if (fs.existsSync(srcIndex)) {
-  fs.copyFileSync(srcIndex, destIndex);
-  console.log('Copied index.html to public/index.html');
+// Ensure index.html and 404.html are in public as well
+for (const file of ['index.html', '404.html']) {
+  const src = path.join(root, file);
+  const dest = path.join(publicDir, file);
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, dest);
+    console.log(`Copied ${file} to public/${file}`);
+  }
 }
 
 // Copy assets to public/assets as well
