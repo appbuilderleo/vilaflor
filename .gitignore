@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Local temp & scratch files
+.chrome-tmp*
+*.log
+preview-*.png
+airbnb.html
+*.tmp
+
+# Raw scraping dumps (the website uses assets/js/gallery-data.js)
+all_unique_images.json
+classified_inventory.json
+contextualized_media.json
+deferred_state.json
+downloaded_photos.json
+image_urls.json
+images_dimension_inventory.json
+listing_photos.json
+listing_summary.json
+photos_detailed.json
+photos_with_context.json
+photo_snippets.json
+real_amenities.json
+real_reviews.json
+verified_listing_photos.json
+extracted_*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

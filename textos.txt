@@ -1,0 +1,341 @@
+# PROJECT: VILA FLOR — PREMIUM BEACHFRONT WEBSITE
+
+Act as a senior full-stack web developer, UI/UX designer and digital hospitality experience specialist.
+
+Build a complete, premium, responsive and interactive website for VILA FLOR, a beachfront holiday house located in Ponta do Ouro, Mozambique.
+
+## 1. TOOLS AND DEVELOPMENT ENVIRONMENT
+
+Use the available website development environment, coding tools and browser capabilities to implement and deploy the website.
+
+STRICT RESTRICTIONS:
+
+- Do NOT use Higgsfield.
+- Do NOT use Higgsfield Sites.
+- Do NOT use AI image-generation tools.
+- Do NOT use AI video-generation tools.
+- Do NOT create artificial photographs of the property.
+- Do NOT require me to upload a ZIP if the photographs can be successfully retrieved from the public Airbnb listing.
+
+The entire project must be implemented through actual web development, using HTML, CSS, JavaScript and an appropriate modern frontend framework if needed.
+
+You are responsible for the complete development process.
+
+## 2. OFFICIAL AIRBNB REFERENCE
+
+Use this listing as the primary source of information and photographs:
+
+https://www.airbnb.com.br/rooms/1133096153786064159
+
+Property name: VILA FLOR.
+
+Location: Ponta do Ouro, Maputo Province, Mozambique.
+
+Extract and verify the information available on the listing.
+
+The currently visible listing information includes:
+
+- 8 guests.
+- 4 bedrooms.
+- 6 beds.
+- 3 bathrooms.
+- Swimming pool.
+- Direct beach access.
+- Kitchen.
+- Wi-Fi.
+- Free on-site parking.
+- Colonial beach house, recently renovated.
+- Airbnb Superhost.
+- Guest rating: 4.97/5.
+- 78 reviews.
+- Top 10% of eligible accommodations.
+
+Always prioritize the live listing over previously recorded information.
+
+Do not invent amenities, prices, availability, property dimensions or other specifications.
+
+## 3. PHOTOGRAPH RETRIEVAL AND ASSET MANAGEMENT
+
+Before developing the website, access the official Airbnb listing using the available browser.
+
+Open the complete photograph gallery by selecting "Mostrar todas as fotos".
+
+Retrieve all publicly accessible photographs of the property.
+
+Download the original or highest-resolution versions available, without bypassing access restrictions.
+
+Organize the downloaded images into categories:
+
+- Exterior and architecture.
+- Living room.
+- Bedrooms.
+- Bathrooms.
+- Kitchen.
+- Swimming pool.
+- Garden and outdoor spaces.
+- Beach and ocean.
+- Property details.
+
+Create a local asset directory:
+
+/public/images/vila-flor/
+
+Use descriptive filenames and create an image inventory.
+
+Requirements:
+
+1. Download actual photographs, not screenshots of the Airbnb page.
+2. Preserve the original image quality.
+3. Do not duplicate photographs unnecessarily.
+4. Do not invent missing photographs.
+5. Do not modify the property's physical appearance.
+6. Optimize images for web delivery.
+7. Generate WebP versions where appropriate.
+8. Maintain responsive image dimensions.
+9. Implement lazy loading.
+10. Preserve original photographs as source assets.
+
+If direct image retrieval is blocked, use an authorized browser download workflow. If this is also unsuccessful, report the limitation and request the original ZIP archive.
+
+Do not silently substitute AI-generated photographs or generic stock photography.
+
+## 4. BRAND AND VISUAL DIRECTION
+
+Create an elegant visual identity for VILA FLOR.
+
+Design direction:
+
+- Tropical luxury.
+- Colonial architectural elegance.
+- Contemporary coastal minimalism.
+- Boutique hospitality.
+- Natural materials.
+- Editorial photography.
+- Sophisticated typography.
+
+Color palette:
+
+Deep Ocean: #102C36
+Warm Sand: #E8DDCA
+Ivory: #F8F6F0
+Tropical Green: #566B51
+White: #FFFFFF
+Muted Gold: #B79B6A
+
+Use an elegant serif typeface for large headings and a refined sans-serif for navigation and body text.
+
+The final design should feel like a premium independent hospitality brand.
+
+## 5. WEBSITE STRUCTURE
+
+Build the following sections:
+
+### HOME / HERO
+
+Create a full-screen photographic hero using the strongest actual property photograph.
+
+Headline:
+
+"Where the Ocean Becomes Home."
+
+Supporting text:
+
+"An intimate beachfront escape in the heart of Ponta do Ouro, Mozambique."
+
+Buttons:
+
+EXPLORE VILA FLOR
+CHECK AVAILABILITY
+
+Use elegant typography, refined animations and immersive photography.
+
+### THE HOUSE
+
+Introduce the property's colonial architecture, recent renovation and beachfront location.
+
+Use actual photographs and editorial storytelling.
+
+### ACCOMMODATION
+
+Present the verified capacity:
+
+8 guests | 4 bedrooms | 6 beds | 3 bathrooms.
+
+Where verified, show the room configurations:
+
+- Bedroom 1: 1 queen bed.
+- Bedroom 2: 1 king bed.
+- Bedroom 3: 2 single beds.
+- Bedroom 4: 2 single beds.
+
+Use actual bedroom photographs.
+
+### EXPERIENCES
+
+Present the outdoor and beachfront experience.
+
+Highlight verified features such as:
+
+- Swimming pool.
+- Direct beach access.
+- Coastal environment.
+- Outdoor spaces, where supported by photographs and listing information.
+
+### GALLERY
+
+Create a premium interactive gallery.
+
+Features:
+
+- Editorial masonry layout.
+- Full-screen image viewer.
+- Image navigation.
+- Keyboard controls.
+- Mobile swipe gestures.
+- Smooth transitions.
+- Image categories.
+
+### LOCATION
+
+Present Ponta do Ouro as the property's destination.
+
+Include an interactive map only if the property's exact location can be reliably established.
+
+### GUEST REVIEWS
+
+Display verified Airbnb reputation information:
+
+4.97/5
+78 reviews
+Superhost
+Top 10% of eligible accommodations.
+
+Include a button linking to the original Airbnb listing.
+
+Do not fabricate testimonials.
+
+### FINAL CALL TO ACTION
+
+Headline:
+
+"Your Next Escape Is Waiting."
+
+Supporting text:
+
+"Discover Vila Flor and experience the beauty of beachfront living in Ponta do Ouro."
+
+Button:
+
+CHECK AVAILABILITY
+
+## 6. BOOKING EXPERIENCE
+
+Create an interactive booking inquiry interface.
+
+Include:
+
+- Check-in.
+- Check-out.
+- Number of guests.
+- Availability button.
+
+Validate the dates and enforce the maximum capacity of 8 guests.
+
+Use the official Airbnb listing as the reservation destination.
+
+URL:
+
+https://www.airbnb.com.br/rooms/1133096153786064159
+
+Transfer selected dates and guest count when technically supported.
+
+Do not simulate real-time availability.
+
+Do not implement payment processing or pretend that reservations have been completed.
+
+## 7. INTERACTIONS AND DESIGN
+
+Implement:
+
+- Responsive navigation.
+- Transparent header over the hero.
+- Sticky navigation on scroll.
+- Smooth scrolling.
+- Elegant hover interactions.
+- Scroll-triggered animations.
+- Full-screen gallery.
+- Light and Dark themes.
+- Mobile navigation.
+- Keyboard accessibility.
+- Reduced-motion support.
+
+Use sophisticated, restrained animations.
+
+The website must remain fast and fluid.
+
+## 8. TECHNICAL REQUIREMENTS
+
+Build a complete production-quality website.
+
+Use:
+
+- Clean component architecture.
+- Reusable components.
+- Semantic HTML.
+- Modern CSS.
+- Optimized JavaScript.
+- Responsive layouts.
+- SEO metadata.
+- Open Graph metadata.
+- Accessible navigation.
+- Image lazy loading.
+- Optimized image formats.
+- Proper error handling.
+
+The website must work correctly on desktop, tablet and mobile.
+
+## 9. TESTING
+
+Before delivery, test:
+
+- Navigation.
+- Gallery.
+- Image loading.
+- Mobile responsiveness.
+- Booking form.
+- Date validation.
+- Guest validation.
+- Airbnb redirection.
+- Theme switching.
+- Animations.
+- Accessibility.
+- Page loading performance.
+
+Fix all discovered implementation errors.
+
+## 10. DELIVERY
+
+Build and deploy a private preview version for review.
+
+Provide:
+
+1. Preview URL.
+2. Complete source code.
+3. Organized property image assets.
+4. Functional gallery.
+5. Booking redirection.
+6. Responsive website.
+7. Summary of completed features.
+8. List of any limitations.
+
+Keep the project available for subsequent modifications.
+
+IMPORTANT:
+
+Do not deliver merely a static landing page or visual mockup.
+
+Deliver a complete, functional and polished digital hospitality experience.
+
+The final website must communicate the exclusivity, architectural character and beachfront location of Vila Flor.
+
+**Use real photographs of the actual property as the foundation of the entire visual experience.**
