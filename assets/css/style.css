@@ -498,13 +498,9 @@ button {
   z-index: 1;
 }
 
-/* Scrim Gradient layers for perfect text contrast */
+/* Hero background sem sobreposicao - fotografia 100% natural */
 .hero-scrim {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse 100% 85% at 50% 50%, rgba(10, 28, 35, 0.45) 0%, rgba(6, 18, 23, 0.82) 100%);
-  z-index: 2;
-  pointer-events: none;
+  display: none !important;
 }
 
 .hero-content {
