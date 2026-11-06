@@ -2,8 +2,8 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const PORT = 3000;
-const ROOT = 'e:/Art DPIC/projectos/vilaflor';
+const PORT = process.env.PORT || 3000;
+const ROOT = process.cwd();
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -43,4 +43,3 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, '127.0.0.1', () => {
   console.log(`Vila Flor preview server running at http://127.0.0.1:${PORT}`);
 });
-
